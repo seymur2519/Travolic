@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.section1{
+    display: flex;
+}
+.section1 .left{
+    margin-left: 133px;
+    margin-top: 141px;
+    margin-right: 128px;
+}
+.section1 .left img{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #F5F3DA;
+}
+.section1 .left .h{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 170%;
+    color: #000000;
+}
+.section1 .left .b{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 189.5%;
+    color: #777777;
+}
+.section1 .right img{
+    margin-top: 89px;
+    margin-bottom: 60px;
+}
+.section2{
+    display: flex;
+    margin-left: 133px;
+    margin-bottom: 86px;
+}
+.section2 .column1{
+    padding-right: 85px;
+    margin: 0;
+    border-right: 1px solid #C2C2C2;
+}
+.section2 .column1 p{
+    margin-left: 15px;
+    margin-bottom: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 189.5%;
+}
+.section2 .column2{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-right: 109px;
+    border-right: 1px solid #C2C2C2;
+}
+.section2 .column2 img{
+    margin-left: 105px;
+    margin-right: 25px;
+}
+
+.section2 .column3{
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.section2 .column3 img{
+    margin-left: 105px;
+    margin-right: 25px;
+}
+.section3{
+
+    background-color:#E8F4FA;
+    padding-top: 54px;
+}
+.section3 .h{
+    font-family: 'Poppins';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 189.5%;
+    color: #000000;
+    background-color:#E8F4FA;
+    
+}
+.section3 .b{
+    font-family: 'Poppins';
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 189.5%;
+    color: #777777;
+    margin-bottom: 79px;
+    background-color:#E8F4FA;
+}
+.forum{
+    margin-left:385px;
+    background-color:#E8F4FA;
+    position: relative;
+}
+.nameinfo{
+    display: flex;
+    background-color:#E8F4FA;
+}
+.firstname{
+    margin-bottom: 20px;
+    margin-right: 27px;
+    background-color:#E8F4FA;
+}
+.lastname{
+    background-color:#E8F4FA;
+}
+.email{
+    margin-bottom: 20px;
+    background-color:#E8F4FA;
+}
+.mesage{
+    background-color:#E8F4FA;
+}
+label{
+    margin-bottom: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175.4%;
+    color: #4F4F4F;
+    background-color:#E8F4FA;
+}
+input{
+    height: 56px;
+    border: none;
+    border-radius: 9px;
+}
+.nameinfo input{
+    width: 322px;
+}
+.email input{
+    width: 671px;
+}
+.mesage input{
+    height: 232px;
+    width: 671px;
+    margin-bottom: 171px;
+}
