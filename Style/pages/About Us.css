@@ -1,4 +1,6 @@
-
+#about_us .dot{
+    display: block;
+}
 .row1{
     display: flex;
 }

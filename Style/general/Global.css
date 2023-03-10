@@ -41,15 +41,29 @@ header ul li a{
 }
 #home{
     margin-right: 83px;
+    position: relative;
+}
+.dot{
+    display: none;
+    position: absolute;
+    background-color: #08D3BB;
+    left: -8px;
+    top: 0px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
 }
 #about_us{
     margin-right: 71px;
+    position: relative;
 }
 #services{
     margin-right: 61px;
+    position: relative;
 }
 #blog{
     margin-right: 71px;
+    position: relative;
 }
 .hr button a{
     padding: 10px 27px 11px 26px;

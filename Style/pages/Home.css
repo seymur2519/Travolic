@@ -1,4 +1,6 @@
-
+#home .dot{
+    display: block;
+}
 .section1{
     display: flex;
     justify-content: space-between;
